@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Mono: ital, wght @ 0,400; 0,600; 1,200; 1,600 & display = swap');
+
+@font-face {	
+    font-family: 'DIN Pro';
+    src: url('../fontso-Light.woff2') format('woff2'),
+        url('../fonts/DINPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('../fonts/DINPro.woff2') format('woff2'),
+        url('../fonts/DINPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueLight.woff2') format('woff2'),
+        url('../fonts/BebasNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/BebasNeueBook.woff2') format('woff2'),
+        url('../fonts/BebasNeueBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1.5;
+	text-align: center;
+
+}
+/* ------------------------------ */
+
+h1{
+
+	font-family: 'DIN Pro';
+	font-weight: bold;
+    font-style: normal;
+	font-size: 30px;
+	text-shadow: 0 2px 5px rgb(48, 3, 3);
+}
+
+h2{ font-family: 'Bebas Neue';
+	font-weight: bold;
+	text-shadow: 0 2px 5px rgb(145, 39, 39);
+	font-size: 20px;
+
+}
+
+a { text-decoration-line: line-through;
+	letter-spacing: 5px;
+
+}
+span{
+	text-decoration: underline;
+	color: rgb(201, 32, 32);
+	font-weight: bold;
+}
+.text{
+	font-family: 'Bebas Neue Book', cursive;
+	font-weight: normal;
+	text-decoration: overline;
+	font-size: 20px;
+	text-indent: 50px;
+	word-spacing: 10px;
+}
+.serial{
+	text-transform: capitalize;
+	white-space: nowrap;
+}	
+.vags, p{
+	text-align: left;
+	color: rgb(80, 38, 8);
+}
